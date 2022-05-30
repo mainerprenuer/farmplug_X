@@ -4,6 +4,7 @@ import 'package:godelicious/utils/dimensions.dart';
 import 'package:godelicious/widgets/app_column.dart';
 import 'package:godelicious/widgets/app_icon.dart';
 import 'package:godelicious/widgets/big_text.dart';
+import 'package:godelicious/widgets/expandable_text_widget.dart';
 
 class PopularFoodDetail extends StatelessWidget {
   const PopularFoodDetail({Key? key}) : super(key: key);
@@ -14,6 +15,7 @@ class PopularFoodDetail extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
+          //background image
           Positioned(
               left: 0,
               right: 0,
@@ -24,6 +26,7 @@ class PopularFoodDetail extends StatelessWidget {
                       image: DecorationImage(
                           fit: BoxFit.cover,
                           image: AssetImage("./assets/image/food0.png"))))),
+          //icon widgets
           Positioned(
               top: Dimension.height45,
               left: Dimension.width20,
@@ -35,6 +38,7 @@ class PopularFoodDetail extends StatelessWidget {
                   AppIcon(icon: Icons.shopping_cart_outlined),
                 ],
               )),
+          //introduction of food
           Positioned(
               left: 0,
               right: 0,
@@ -57,13 +61,22 @@ class PopularFoodDetail extends StatelessWidget {
                       SizedBox(
                         height: Dimension.height20,
                       ),
-                      BigText(text: "Introduce")
+                      BigText(text: "Introduce"),
+                      SizedBox(
+                        height: Dimension.height20,
+                      ),
+                      const Expanded(
+                          child: SingleChildScrollView(
+                        child: ExpandableTextWidget(
+                            text:
+                                "About Chicken Shawarma Recipe: Shawarma is vastly popular across the middle-east, specially Lebanon. Now a popular street food as well, chicken shawarma has quickly garnered appreciation across the globe, particularly in India. You can prepare this easy shawarma at home as a side dish for brunch or for evening snacks.Ingredients in Chicken Shawarma: Chicken baked in a yogurt marinade, rolled up in pita bread and served with tahini or mayonnaise. This seems like the perfect dish for your evening binge eating Key Ingredients: Boneless chicken thighs (skinless), malt vinegar, plain yogurt, vegetable oil, salt and pepper, freshly ground cardamom, All spice powder, tahini, plain yogurt, garlic (minced), lemon juice, olive oil, fresh parsley, salt and pepper, tomatoes, onion, lettuce, Pita bread rounds."),
+                      ))
                     ],
-                  )))
+                  ))),
         ],
       ),
       bottomNavigationBar: Container(
-        height: 120,
+        height: Dimension.bottomHeightBar,
         padding: EdgeInsets.only(
             top: Dimension.height30,
             bottom: Dimension.height30,
@@ -76,6 +89,7 @@ class PopularFoodDetail extends StatelessWidget {
               topRight: Radius.circular(Dimension.radius20 * 2),
             )),
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
               padding: EdgeInsets.only(
@@ -113,13 +127,13 @@ class PopularFoodDetail extends StatelessWidget {
                   left: Dimension.width20,
                   right: Dimension.width20),
               child: BigText(
-                text: "\$500 | Add to cart",
+                text: "N500 | Add to cart",
                 color: Colors.white,
               ),
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(Dimension.radius20),
-              ),
-            )
+                  borderRadius: BorderRadius.circular(Dimension.radius20),
+                  color: AppColors.mainColor),
+            ),
           ],
         ),
       ),
