@@ -1,6 +1,6 @@
 # godelicious
 
-A new Flutter project.
+Food ordering and delivery app project.
 
 ## Getting Started
 
