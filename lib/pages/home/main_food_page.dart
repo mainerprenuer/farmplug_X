@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:godelicious/pages/home/food_page_body.dart';
-import 'package:godelicious/utils/colors.dart';
-import 'package:godelicious/utils/dimensions.dart';
+import 'package:farmplug/pages/home/food_page_body.dart';
+import 'package:farmplug/utils/colors.dart';
+import 'package:farmplug/utils/dimensions.dart';
 
 import '../../widgets/big_text.dart';
 import '../../widgets/small_text.dart';

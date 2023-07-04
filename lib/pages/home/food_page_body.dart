@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:godelicious/utils/colors.dart';
-import 'package:godelicious/utils/dimensions.dart';
-import 'package:godelicious/widgets/app_column.dart';
-import 'package:godelicious/widgets/big_text.dart';
-import 'package:godelicious/widgets/icon_and_text_widget.dart';
-import 'package:godelicious/widgets/small_text.dart';
+import 'package:farmplug/utils/colors.dart';
+import 'package:farmplug/utils/dimensions.dart';
+import 'package:farmplug/widgets/app_column.dart';
+import 'package:farmplug/widgets/big_text.dart';
+import 'package:farmplug/widgets/icon_and_text_widget.dart';
+import 'package:farmplug/widgets/small_text.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 
 class FoodPageBody extends StatefulWidget {

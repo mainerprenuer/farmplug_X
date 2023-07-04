@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:godelicious/utils/colors.dart';
-import 'package:godelicious/utils/dimensions.dart';
-import 'package:godelicious/widgets/app_icon.dart';
-import 'package:godelicious/widgets/big_text.dart';
-import 'package:godelicious/widgets/expandable_text_widget.dart';
+import 'package:farmplug/utils/colors.dart';
+import 'package:farmplug/utils/dimensions.dart';
+import 'package:farmplug/widgets/app_icon.dart';
+import 'package:farmplug/widgets/big_text.dart';
+import 'package:farmplug/widgets/expandable_text_widget.dart';
 
 class RecommendedFoodDetail extends StatefulWidget {
   const RecommendedFoodDetail({Key? key}) : super(key: key);

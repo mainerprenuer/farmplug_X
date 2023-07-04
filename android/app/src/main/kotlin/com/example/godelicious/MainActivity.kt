@@ -1,4 +1,4 @@
-package com.example.godelicious
+package com.example.farmplug
 
 import io.flutter.embedding.android.FlutterActivity
 

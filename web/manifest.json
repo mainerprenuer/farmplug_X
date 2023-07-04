@@ -1,6 +1,6 @@
 {
-    "name": "godelicious",
-    "short_name": "godelicious",
+    "name": "farmplug",
+    "short_name": "farmplug",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

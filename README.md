@@ -1,4 +1,4 @@
-# godelicious
+# farmplug
 
 Food ordering and delivery app project.
 

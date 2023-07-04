@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:godelicious/data/api/api_client.dart';
+import 'package:farmplug/data/api/api_client.dart';
 
 class PopularProductRepo extends GetxService {
   final ApiClient apiClient;
@@ -7,6 +7,6 @@ class PopularProductRepo extends GetxService {
 
   Future<Response> getPopularProductList() async {
     return await apiClient
-        .getData("https://www.godelicious.online/api/product/list");
+        .getData("https://www.farmplug.online/api/product/list");
   }
 }

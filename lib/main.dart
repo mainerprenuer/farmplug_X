@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:godelicious/pages/food/popular_food_detail.dart';
+import 'package:farmplug/pages/food/popular_food_detail.dart';
+import 'package:farmplug/pages/home/main_food_page.dart';
 import 'helper/dependencies.dart' as dep;
 
 void main() async {
@@ -17,10 +18,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Go_Delicious',
+        title: 'Farmplug',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const PopularFoodDetail());
+        home: const MainFoodPage());
   }
 }

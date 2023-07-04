@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.godelicious">
+    package="com.example.farmplug">
    <application
-        android:label="godelicious"
+        android:label="farmplug"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

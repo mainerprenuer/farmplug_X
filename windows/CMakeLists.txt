@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(godelicious LANGUAGES CXX)
+project(farmplug LANGUAGES CXX)
 
-set(BINARY_NAME "godelicious")
+set(BINARY_NAME "farmplug")
 
 cmake_policy(SET CMP0063 NEW)
 
