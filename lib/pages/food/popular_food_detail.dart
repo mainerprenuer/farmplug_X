@@ -25,7 +25,7 @@ class PopularFoodDetail extends StatelessWidget {
                   decoration: const BoxDecoration(
                       image: DecorationImage(
                           fit: BoxFit.cover,
-                          image: AssetImage("./assets/image/food0.png"))))),
+                          image: AssetImage("./assets/image/f10.png"))))),
           //icon widgets
           Positioned(
               top: Dimension.height45,
@@ -57,7 +57,7 @@ class PopularFoodDetail extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const AppColumn(text: "Tasty Shawarma"),
+                      const AppColumn(text: "Fresh Watermelon"),
                       SizedBox(
                         height: Dimension.height20,
                       ),
@@ -69,7 +69,7 @@ class PopularFoodDetail extends StatelessWidget {
                           child: SingleChildScrollView(
                         child: ExpandableTextWidget(
                             text:
-                                "About Chicken Shawarma Recipe: Shawarma is vastly popular across the middle-east, specially Lebanon. Now a popular street food as well, chicken shawarma has quickly garnered appreciation across the globe, particularly in India. You can prepare this easy shawarma at home as a side dish for brunch or for evening snacks.Ingredients in Chicken Shawarma: Chicken baked in a yogurt marinade, rolled up in pita bread and served with tahini or mayonnaise. This seems like the perfect dish for your evening binge eating Key Ingredients: Boneless chicken thighs (skinless), malt vinegar, plain yogurt, vegetable oil, salt and pepper, freshly ground cardamom, All spice powder, tahini, plain yogurt, garlic (minced), lemon juice, olive oil, fresh parsley, salt and pepper, tomatoes, onion, lettuce, Pita bread rounds."),
+                                "Watermelon's high water content, antioxidants, and amino acids may make for a better workout. It's also high in potassium, a mineral that could cut down on cramps at the gym. You can sip watermelon juice after you sweat, too. Doing so could help prevent muscle soreness, as long as you don't push yourself too hard."),
                       ))
                     ],
                   ))),

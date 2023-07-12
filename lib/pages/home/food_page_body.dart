@@ -117,7 +117,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                           color: Colors.white38,
                           image: const DecorationImage(
                               fit: BoxFit.cover,
-                              image: AssetImage("./assets/image/food0.png"))),
+                              image: AssetImage("./assets/image/f10.png"))),
                     ),
 
                     //text container
@@ -139,12 +139,12 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              BigText(
-                                  text: "Delicious Kilishi in Birnin Kebbi"),
+                              BigText(text: "Fresh watermelon"),
                               SizedBox(
                                 height: Dimension.height10,
                               ),
-                              SmallText(text: "Served with cold smoothy"),
+                              SmallText(
+                                  text: "Watermelon is good for the health"),
                               SizedBox(
                                 height: Dimension.height10,
                               ),
@@ -220,7 +220,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                     : const Color(0xFF9294cc),
                 image: const DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage("./assets/image/food0.png"),
+                  image: AssetImage("./assets/image/f10.png"),
                 )),
           ),
           Align(
@@ -245,7 +245,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
               child: Container(
                 padding: EdgeInsets.only(
                     top: Dimension.height15, left: 15, right: 15),
-                child: const AppColumn(text: "Tasty Shawarma"),
+                child: const AppColumn(text: "Fresh Watermelon"),
               ),
             ),
           ),
