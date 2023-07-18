@@ -32,11 +32,11 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   Column(
                     children: [
                       BigText(
-                          text: "Nigeria, Kebbi", color: AppColors.mainColor),
+                          text: "Nigeria, Sokoto", color: AppColors.mainColor),
                       Row(
                         children: [
                           SmallText(
-                            text: "Birnin Kebbi",
+                            text: "Sokoto",
                             color: Colors.black54,
                           ),
                           const Icon(Icons.arrow_drop_down_rounded)

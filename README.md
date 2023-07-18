@@ -1,6 +1,9 @@
 # farmplug
 
-Food ordering and delivery app project.
+Farm produce ordering and delivery system.
+
+Farm-Plug is said to be a platform that connects farmers and farm produce buyers globally for easy purchase and delivery. The farmers are to sell produce as in accordance to the world market rate, The platform will be bridging the gap between successful farm business transactions including import and export of farm products.
+
 
 ## Getting Started
 
