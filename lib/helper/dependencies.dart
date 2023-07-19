@@ -5,7 +5,7 @@ import '../data/api/api_client.dart';
 
 Future<void> init() async {
   //api client
-  Get.lazyPut(() => ApiClient(appBaseUrl: "https://www.farmplug.online"));
+  Get.lazyPut(() => ApiClient(appBaseUrl: "https://localhost:3000"));
 
   //repos
   Get.lazyPut(() => PopularProductRepo(apiClient: Get.find()));
