@@ -1,3 +1,5 @@
+import 'package:farmplug/pages/food/recommended_food_detail.dart';
+import 'package:farmplug/pages/home/food_page_body.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:farmplug/pages/food/popular_food_detail.dart';
@@ -22,6 +24,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const MainFoodPage());
+        home: const RecommendedFoodDetail());
   }
 }
